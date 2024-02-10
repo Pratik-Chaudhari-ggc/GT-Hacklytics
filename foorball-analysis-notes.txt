@@ -1,0 +1,24 @@
+3rd down conversion
+Yards allowed
+Previous Years won
+Super Bowl appearances
+Playoff qualified
+QB Rating
+
+-- Dataset that has all of the inforamtion broken down by play
+
+KC and 49ers Offense and Defense data
+
+-- 2024 (2023 Season) KC vs 49ers - TBD
+-- 2023 (2022 Season) Eagles vs KC - KC
+-- 2022 (2021 Season) Rams vs Bengals - Rams
+-- 2021 (2020 Season) KC vs Bunccaneers - Buccs
+-- 2020 (2019 Season) KC vs 49ers - KC
+-- 2019 (2018 Season) Patriots vs Rams - Patriots
+
+Number of total passing yards per season
+ '' rushing yards per season
+
+Number of turnovers per season
+
+Number of sacks per season
