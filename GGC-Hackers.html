@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GT-Hacklytics</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  h1, h2, h3 {
+    color: #333;
+  }
+  h1 {
+    text-align: center;
+  }
+  h2 {
+    margin-top: 30px;
+    color: #0066cc;
+  }
+  h3 {
+    color: #009933;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  ul li {
+    margin-bottom: 10px;
+  }
+</style>
+</head>
+<body>
+
+<h1>GT-Hacklytics</h1>
+<p>Our team's submission repo for the 2024 GT Hacklytics</p>
+
+<h2>Our Team</h2>
+<ul>
+  <li>Pratik Chaudhari</li>
+  <li>Cody Ledford</li>
+  <li>Manu Achar</li>
+  <li>Jacobi Miller</li>
+</ul>
+
+<h1>Predicting American Football Outcomes</h1>
+
+<p>Our project leverages historic data from numerous sources (linked below) in order to feed a predictive model that will determine the outcome of a football game based on the play made in the game.</p>
+
+<h2>Our approach</h2>
+<p>In order to create a model that would predict the outcome of a football game properly and accurately, we engaged in the following activities:</p>
+
+<ul>
+  <li>Identify datasources that would supply us with historic football statistics, including but not limited to play-by-play data, and per-game performance.</li>
+  <li>Identify key fields in the datasets that preliminarily be the best for the analysis and feeding to the model.</li>
+  <li>Clean the dataset to remove missing and non-important values, such as columns that are full of 0s and such.</li>
+  <li>Aggregate the historic datasets into one main dataset that can be used for training.</li>
+  <li>Use an additional cleaned dataset with current data to test and determine the accuracy of our model.</li>
+  <li>Utilize a decision tree model that would take in our cleaned and created datasets in effort train the model.</li>
+  <li>Create a dataset that could be used to verify the accuracy of the model, and as a result, determine the effectiveness of our application.</li>
+</ul>
+
+<h3>How would we improve this model</h3>
+<ul>
+  <li>We would include additional sets of data for attempts to make the model more accurate, since it would have more data and potentially be able to recognize the most important features easier.</li>
+  <li>Refine our filtering of the data - this would ensure that we only have quality inputs that would influence the decision making power of our model.</li>
+</ul>
+
+<h1>Outcomes of the Analysis and Model</h1>
+<p>Using the chosen play-by-play data from 2018 - 2022 NFL Football seasons for training, and the 2023 season our model was able to predict the outcome of a game accurately __% of the time with the top __ KPIs and __% accuracy with the top __ KPIs.</p>
+
+<p>With more data for further training, we believe that our model could be used to accurately determine the outcome of games in real-time as the game progresses.</p>
+
+<h2>Dataset Sources</h2>
+<ul>
+  <li><a href="https://nflsavant.com/about.php">Play by Play Datasets</a></li>
+  <li><a href="https://www.pro-football-reference.com/years/">Scores and Winners by Game</a></li>
+  <li><a href="https://www.kaggle.com/datasets/cviaxmiwnptr/nfl-team-stats-20022019-espn">NFL Team Stats</a></li>
+  <li>List of Super Bowl Champions</li>
+</ul>
+
+</body>
+</html>
