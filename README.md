@@ -56,6 +56,10 @@ In order to create a model that would predict the outcome of a football game pro
 
 - Use additional metrics to measure success of model area under curve of ROC.
 
+## Project Sites
+- [GitHub Repo](https://github.com/Pratik-Chaudhari-ggc/GT-Hacklytics)
+- [Project Overview Website](https://htmlpreview.github.io/?https://github.com/Pratik-Chaudhari-ggc/GT-Hacklytics/blob/main/GGC-Hackers.html)
+
 ## Dataset Sources
 - [Play by Play Datasets](https://nflsavant.com/about.php)
 - [Scores and Winners by Game](https://www.pro-football-reference.com/years/)
