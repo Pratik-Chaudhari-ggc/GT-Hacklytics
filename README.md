@@ -7,6 +7,9 @@ Our team's submission repo for the 2024 GT Hacklytics
 - Manu Achar
 - Jacobi Miller
 
+### Notebook for Live Testing Code
+- dtc-notebook.ipnb
+
 # Predicting American Football Outcomes
 
 - Our project leverages historic data from numerous sources (linked below) in order to feed a predictive model that will determine the outcome of a football game based on plays made in the game.
@@ -45,7 +48,7 @@ In order to create a model that would predict the outcome of a football game pro
 - Refine our filtering of the data - this would ensure that we only have quality inputs that would influence the decision making power of our model.
 
 # Outcomes of the Analysis and Model
-- Using the chosen play-by-play data from 2018 - 2022 NFL Football seasons for training, and the 2023 season our model was able to predict the outcome of a game accurately __% of the time with the top __ KPIs and __% accuracy with the top __ KPIs.
+- Using the chosen play-by-play data from 2018 - 2022 NFL Football seasons for training, and the 2023 season our model was able to predict the outcome of a game accurately 65% of the time with top 25% of loadings based on absolute cumulative sum.
 
 - With more data for further training, we believe that our model could be used to accurately determine the outcome of games in real-time as the game progresses.
 
@@ -53,4 +56,4 @@ In order to create a model that would predict the outcome of a football game pro
 - [Play by Play Datasets](https://nflsavant.com/about.php)
 - [Scores and Winners by Game](https://www.pro-football-reference.com/years/)
 - [NFL Team Stats](https://www.kaggle.com/datasets/cviaxmiwnptr/nfl-team-stats-20022019-espn)
-- List of Super Bowl Champions
+- [List of Super Bowl Champions](https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions)
