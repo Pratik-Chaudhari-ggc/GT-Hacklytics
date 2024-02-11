@@ -72,7 +72,9 @@
 
 <h1>Predicting American Football Outcomes</h1>
 
-<p>Our project leverages historic data from numerous sources (linked below) in order to feed a predictive model that will determine the outcome of a football game based on the play made in the game.</p>
+<h4>With all the constant debate these days about who will win what football game, we want to provide a solution to the ambiguity. Who is going to win the next game? Was that play a good or bad one? Will your favorite team make it to the SuperBowl? These are just a few of the questions that we sought out to find the answer to.</h4>
+  
+<h4>Our project leverages historic data from numerous sources (linked below) in order to feed a predictive model that will determine the outcome of a football game based on the play made in the game.</h4>
 
 <h2>Our Approach</h2>
 <p>In order to create a model that would predict the outcome of a football game properly and accurately, we engaged in the following activities:</p>
@@ -87,12 +89,6 @@
   <li>Create a dataset that could be used to verify the accuracy of the model, and as a result, determine the effectiveness of our application.</li>
 </ul>
 
-<h2>Future Improvements</h2>
-<ul>
-  <li>We would include additional sets of data for attempts to make the model more accurate, since it would have more data and potentially be able to recognize the most important features easier.</li>
-  <li>Refine our filtering of the data - this would ensure that we only have quality inputs that would influence the decision making power of our model.</li>
-</ul>
-
 <h2>Exploration</h2>
 <ul>
   <img src="Images\cum_explained_var.png" alt="Cumulative_Explained_Variance">
@@ -105,24 +101,30 @@
 </ul>
 
 <h2>Outcomes of the Analysis and Model</h2>
-<p>Using the chosen play-by-play data from 2018 - 2022 NFL Football seasons for training, and the 2023 season our model was able to predict the outcome of a game accurately 65% of the time with top 25% of loadings based on absolute cumulative sum.
-</p>
-
-<p>With more data for further training, we believe that our model could be used to accurately determine the outcome of games in real-time as the game progresses.</p>
+<ul>
+  <li>Using the chosen play-by-play data from 2018 - 2022 NFL Football seasons for training, and the 2023 season our model was able to predict the outcome of a game accurately 65% of the time with top 25% of loadings based on absolute cumulative sum.</li>
+  <li>The precisions of both models indicate that they are a little better than a coin flip, but our recall indicates that we had very few false positives.</li>
+</ul>
+<h2>Future Improvements</h2>
+<ul>
+  <li>We would include additional sets of data for attempts to make the model more accurate, since it would have more data and potentially be able to recognize the most important features easier.</li>
+  <li>Refine our filtering of the data - this would ensure that we only have quality inputs that would influence the decision making power of our model.</li>
+  <li>Create different models using different algorithms (such as SVM or Naive Bayes) to imporve the precision metric of our prediction.</li>
+  <li>Use additional metrics to measure success of model area under curve of ROC.</li>
+</ul>
 
 <h2>Dataset Sources</h2>
 <ul>
   <li><a href="https://nflsavant.com/about.php">Play by Play Datasets</a></li>
   <li><a href="https://www.pro-football-reference.com/years/">Scores and Winners by Game</a></li>
   <li><a href="https://www.kaggle.com/datasets/cviaxmiwnptr/nfl-team-stats-20022019-espn">NFL Team Stats</a></li>
-  <li>List of Super Bowl Champions</li>
+  <li><a href="https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions">List of Super Bowl Champions</a></li>
 </ul>
 
 <h2>Links to Project</h2>
 <ul>
-  <li><a href="https://github.com/Pratik-Chaudhari-ggc/GT-Hacklytics">Project Overview Website</a></li>
-  <li><a href="https://htmlpreview.github.io/?https://github.com/Pratik-Chaudhari-ggc/GT-Hacklytics/blob/main/GGC-Hackers.html">Our Github Repo</a></li>
-  <li><a href="https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions">Our Github Repo</a></li>
+  <li><a href="https://github.com/Pratik-Chaudhari-ggc/GT-Hacklytics">Github Repo</a></li>
+  <li><a href="https://htmlpreview.github.io/?https://github.com/Pratik-Chaudhari-ggc/GT-Hacklytics/blob/main/GGC-Hackers.html">Our Project Overview Website</a></li>
 </ul>
 
 </body>
