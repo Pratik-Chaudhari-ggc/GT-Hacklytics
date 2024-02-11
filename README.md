@@ -9,7 +9,7 @@ Our team's submission repo for the 2024 GT Hacklytics
 
 # Predicting American Football Outcomes
 
-- Our project leverages historic data from numerous sources (linked below) in order to feed a predictive model that will determine the outcome of a football game based on the play made in the game.
+- Our project leverages historic data from numerous sources (linked below) in order to feed a predictive model that will determine the outcome of a football game based on plays made in the game.
 
 ## Our approach
 In order to create a model that would predict the outcome of a football game properly and accurately, we engaged in the following activities:
@@ -20,6 +20,8 @@ In order to create a model that would predict the outcome of a football game pro
 
 - Clean the dataset to remove missing and non-important values, such as columns that are full of 0s and such.
 
+- Identify the teams that were in the Superbowl, and create subsets of our season data to better analyze 
+
 - Aggregate the historic datasets into one main dataset that can be used for training.
 
 - Use an additional cleaned dataset with current data to test and determine the accuracy of our model.
@@ -28,7 +30,16 @@ In order to create a model that would predict the outcome of a football game pro
 
 - Create a dataset that could be used to verify the accuracy of the model, and as a result, determine the effectiveness of our application.
 
-### How would we improve this model
+## Points of Struggle
+- Finding the proper datasets that contained all of the data that we were looking to capture for our problem.
+
+- Merging of datasets
+
+- Determining how to use PCA for feature selection
+
+- Improving the accuracy of the model.
+
+## How would we improve this model
 - We would include additional sets of data for attempts to make the model more accurate, since it would have more data and potentially be able to recognize the most important features easier.
 
 - Refine our filtering of the data - this would ensure that we only have quality inputs that would influence the decision making power of our model.

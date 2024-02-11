@@ -7,8 +7,23 @@
 <style>
   body {
     font-family: Arial, sans-serif;
-    margin: 20px;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255, 255, 255, 0.2);
+    /*background-image: url('Images/GGC_GClaw.png');*/
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content {
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
   }
+
   h1, h2, h3 {
     color: #333;
   }
@@ -20,20 +35,31 @@
     color: #0066cc;
   }
   h3 {
-    color: #009933;
+    color: #0066cc;
   }
   ul {
-    list-style-type: none;
-    padding: 0;
+    list-style-type: disc;
+    padding-left: 20px;
   }
   ul li {
+    margin-bottom: 10px;
+  }
+  .graph {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .graph img {
+    max-width: 80%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
     margin-bottom: 10px;
   }
 </style>
 </head>
 <body>
 
-<h1>GT-Hacklytics</h1>
+<h1>GGC-Hackers</h1>
 <p>Our team's submission repo for the 2024 GT Hacklytics</p>
 
 <h2>Our Team</h2>
@@ -48,7 +74,7 @@
 
 <p>Our project leverages historic data from numerous sources (linked below) in order to feed a predictive model that will determine the outcome of a football game based on the play made in the game.</p>
 
-<h2>Our approach</h2>
+<h2>Our Approach</h2>
 <p>In order to create a model that would predict the outcome of a football game properly and accurately, we engaged in the following activities:</p>
 
 <ul>
@@ -61,13 +87,13 @@
   <li>Create a dataset that could be used to verify the accuracy of the model, and as a result, determine the effectiveness of our application.</li>
 </ul>
 
-<h3>How would we improve this model</h3>
+<h2>Future Improvements</h2>
 <ul>
   <li>We would include additional sets of data for attempts to make the model more accurate, since it would have more data and potentially be able to recognize the most important features easier.</li>
   <li>Refine our filtering of the data - this would ensure that we only have quality inputs that would influence the decision making power of our model.</li>
 </ul>
 
-<h1>Outcomes of the Analysis and Model</h1>
+<h2>Outcomes of the Analysis and Model</h2>
 <p>Using the chosen play-by-play data from 2018 - 2022 NFL Football seasons for training, and the 2023 season our model was able to predict the outcome of a game accurately __% of the time with the top __ KPIs and __% accuracy with the top __ KPIs.</p>
 
 <p>With more data for further training, we believe that our model could be used to accurately determine the outcome of games in real-time as the game progresses.</p>
