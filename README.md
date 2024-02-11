@@ -42,7 +42,7 @@ In order to create a model that would predict the outcome of a football game pro
 
 - Improving the accuracy of the model.
 
-## How would we improve this model
+## Future Improvements
 - We would include additional sets of data for attempts to make the model more accurate, since it would have more data and potentially be able to recognize the most important features easier.
 
 - Refine our filtering of the data - this would ensure that we only have quality inputs that would influence the decision making power of our model.
