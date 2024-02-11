@@ -7,6 +7,9 @@ Our team's submission repo for the 2024 GT Hacklytics
 - Manu Achar
 - Jacobi Miller
 
+### Notebook for Live Testing Code
+- dtc-notebook.ipnb
+
 # Predicting American Football Outcomes
 
 - Our project leverages historic data from numerous sources (linked below) in order to feed a predictive model that will determine the outcome of a football game based on plays made in the game.
