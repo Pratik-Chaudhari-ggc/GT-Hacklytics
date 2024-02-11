@@ -52,6 +52,10 @@ In order to create a model that would predict the outcome of a football game pro
 
 - Refine our filtering of the data - this would ensure that we only have quality inputs that would influence the decision making power of our model.
 
+- Create different models using different algorithms (such as SVM or Naive Bayes) to imporve the precision metric of our prediction.
+
+- Use additional metrics to measure success of model area under curve of ROC.
+
 ## Dataset Sources
 - [Play by Play Datasets](https://nflsavant.com/about.php)
 - [Scores and Winners by Game](https://www.pro-football-reference.com/years/)
